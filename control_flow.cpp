@@ -35,11 +35,13 @@ int main(){
     // LOOPS: For repeating tasks.
 
     // for loop: used when the number of times to repeat is known
-
+    
+    std::cout << "Play, in ";
     for(int i = 1; i < 4; i++){
-        std::cout << "Play, in " << i << std::endl;
+        std::cout << i << std::endl;
     }
     std::cout << "ACTION!!!" << std::endl;
+    std::cout << std::endl;
 
     // while loop: used when the number of times is not stated(runs until the condition becomes false) 
 
