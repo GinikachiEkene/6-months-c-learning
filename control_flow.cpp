@@ -18,7 +18,8 @@ int main(){
     }else{
         std::cout << "Zero" << std::endl;
     }
-    
+    std::cout << std::endl;
+
     // Switch statement
 
     int day = 3;
@@ -29,15 +30,16 @@ int main(){
         case 3: std::cout << "Wednesday" << "\n"; break;
         default: std::cout << "Invalid day" << "\n"; break;
     }
-
+    std::cout << std::endl;
     
     // LOOPS: For repeating tasks.
 
     // for loop: used when the number of times to repeat is known
 
-    for(int i = 1; 1 < 5; i++){
-        std::cout << " ";
+    for(int i = 1; i < 4; i++){
+        std::cout << "Play, in " << i << std::endl;
     }
+    std::cout << "ACTION!!!" << std::endl;
 
     // while loop: used when the number of times is not stated(runs until the condition becomes false) 
 
@@ -48,4 +50,13 @@ int main(){
         std::cout << i << "\n";
         i--;
     }
+    std::cout << std::endl;
+
+    // do-while loop: always runs at least once
+
+    int n = 0;
+
+    do{
+        std::cout << "Runs once even if n = 0" << "\n";
+    }while(n > 0);
 }
