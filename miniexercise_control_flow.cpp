@@ -3,6 +3,8 @@
 
 int main(){
 
+    // PHASE 1:
+
     // To check if a number is positive, negative or zero.
 
     double num;
@@ -20,6 +22,8 @@ int main(){
         std::cout << "Please enter a valid number." << std::endl;
     }
     std::cout << std::endl;
+
+    // PHASE 2:
 
     // Number representing days of the week.
 
@@ -41,5 +45,25 @@ int main(){
         case 5: std::cout << "Your favourite day of the week is Thursday." << std::endl; break;
         case 6: std::cout << "Your favourite day of the week is Friday." << std::endl; break;
         case 7: std::cout << "Your favourite day of the week is Saturday." << std::endl; break;
+    }
+    std::cout << std::endl;
+
+    // PHASE 3:
+
+    // Printing the numbers 1 - 10 using a loop.
+
+    // Will be using a for loop
+
+    std::string ans;
+
+    std::cout << "Would you like to see me count from 1 to 10?" << std::endl;
+    std::cin >> ans;
+
+    if(ans == "Yes" || ans == "yes"){
+        for(int i = 0; i < 11; i++){
+            std::cout << i << "\n";
+        }
+    }else{
+        std::cout << "Okay, thank you for your time. Maybe another time, have a nice day." << std::endl;
     }
 }
